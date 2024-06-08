@@ -1,0 +1,112 @@
+﻿# Ignore the Artifacts directory and all its contents
+Artifacts/
+
+# .NET Core
+project.lock.json
+project.fragment.lock.json
+artifacts/
+
+# .NET Core Auto-generated files
+*.sln.ide
+
+# User-specific files
+*.rsuser
+*.suo
+*.user
+*.userosscache
+*.userprefs
+
+# Mono Auto Generated Files
+mono_crash.*
+
+# Windows image file caches
+Thumbs.db
+ehthumbs.db
+
+# Folder config file
+Desktop.ini
+
+# Recycle Bin used on file shares
+$RECYCLE.BIN/
+
+# VS Code directories
+.vscode/
+
+# VS Code files
+*.code-workspace
+
+# Rider directories
+.idea/
+
+# Rider files
+*.sln.iml
+
+# ASP.NET Scaffolding
+ScaffoldingReadMe.txt
+
+# Entity Framework Core
+*.jfm
+
+# DotNetCliToolReference
+.tools/
+
+# NCrunch
+*.ncrunchsolution
+*.ncrunchproject
+
+# MSBuild Binary and Project Output
+bin/
+obj/
+
+# NuGet Packages
+*.nupkg
+*.snupkg
+.nuget/
+packages/
+
+# Paket dependency manager
+.paket/
+paket-files/
+paket.restore.cached
+
+# Backup & report files from converting an old project file to a newer
+# format. Backup files are not needed, because we have git ;-)
+*.Backup
+*.bak
+*.swp
+*.tmp
+*.tmp.*
+~$*
+
+# Windows image file caches
+Thumbs.db
+ehthumbs.db
+
+# Folder config file
+Desktop.ini
+
+# Recycle Bin used on file shares
+$RECYCLE.BIN/
+
+# Windows Installer files
+*.cab
+*.msi
+*.msm
+*.msp
+
+# Windows shortcuts
+*.lnk
+
+# Rider
+.idea/
+*.sln.iml
+
+# User-specific files
+*.rsuser
+*.suo
+*.user
+*.userosscache
+*.userprefs
+
+# Mono Auto Generated Files
+mono_crash.*
