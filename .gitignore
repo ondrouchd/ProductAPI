@@ -1,7 +1,4 @@
-﻿# Ignore the Artifacts directory and all its contents
-Artifacts/
-
-# .NET Core
+﻿# .NET Core
 project.lock.json
 project.fragment.lock.json
 artifacts/
