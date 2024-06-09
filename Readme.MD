@@ -40,3 +40,43 @@ Possible values for Root Certificate are the path to the root certificate file.
 
 ## Npgsql documentation
 For more information on the Npgsql package, you can visit the [Npgsql documentation](https://www.npgsql.org/doc/index.html).
+
+## Analysis of the sales data
+
+## Generate random sales data
+Steps:
+- connect to PostgreSQL databaze productsdb via psycopg2 library
+- read data from 'products'table
+- generate random sales data
+- store the sales data to 'sales_data.csv' into assets folder
+
+```
+pip install psycopg2 pandas faker
+python generate-sales-data.py
+```
+
+
+### Generate sales report
+The report structure:
+'order_id': order id
+'product': product name
+'category': product category
+'quantity': quantity of product sold
+'price_per_unit': price per unit of product
+'total_price': total price of product sold
+'order_date': date of order in format YYYY-MM-DD
+
+Steps:
+- read sales data from 'sales_data.csv' into Panda DataFrame
+- create the chart of sales data per months
+- generate sales report report.txt with:
+	- total number of orders
+	- total number of products sold
+	- average price per unit
+	- best selling product
+	- top selling category
+
+```
+pip insdtall pandas matplotlib
+python sales-report.py
+```
