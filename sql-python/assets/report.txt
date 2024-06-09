@@ -1,0 +1,5 @@
+Total Orders: 1000
+Total Revenue: 792410.0
+Average Price Per Unit: 146.79
+Top Selling Product: Laptop
+Top Selling Category: Electronics

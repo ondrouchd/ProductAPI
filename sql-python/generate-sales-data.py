@@ -44,7 +44,7 @@ def generate_sales_data(products_df, num_orders=1000):
 sales_data_df = generate_sales_data(products_df)
 
 # store the sales data into CSV file
-sales_data_df.to_csv('sales_data.csv', index=False)
+sales_data_df.to_csv('assets/sales_data.csv', index=False)
 
 # close connection to the database
 conn.close()
